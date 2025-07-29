@@ -3,6 +3,7 @@
 Website is deployed in Kubernetes cluster. A deployment contains the following
 containers:
 
+
 - website: A Flask app with static files complied by Webpack.
 - mixer: A Data Commons API server.
 - esp: Google Extensive Service Proxy used for endpoints management.
